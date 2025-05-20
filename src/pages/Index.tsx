@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -7,7 +6,7 @@ import SkillItem from '@/components/SkillItem';
 import ProjectCard from '@/components/ProjectCard';
 import EducationCard from '@/components/EducationCard';
 import ContactForm from '@/components/ContactForm';
-import { Briefcase, Calendar, LinkedIn, Mail, Phone } from 'lucide-react';
+import { Briefcase, Calendar, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -212,7 +211,7 @@ const Index = () => {
                   </div>
                   
                   <div className="flex items-center">
-                    <LinkedIn className="w-5 h-5 mr-3 text-gray-600" />
+                    <Linkedin className="w-5 h-5 mr-3 text-gray-600" />
                     <a 
                       href="https://www.linkedin.com/in/sujey-sharoan-s/" 
                       target="_blank"
